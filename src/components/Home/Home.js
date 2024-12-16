@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./Eric_BN_selfie.jpg";
+import image from "../../images/branding/Eric_BN_selfie.jpg";
 import './home.module.css';
 
 function Home() {
