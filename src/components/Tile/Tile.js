@@ -4,7 +4,8 @@ function Tile({project}) {
     return (
         <div className="tile">
             <h1>{project.title}</h1>
-            <h2>{project.description}</h2>
+            <p>{project.description}</p>
+            <a href={project.url} target="_blank" rel="noreferrer">View on GitHub</a>
         </div>
     )
 }
