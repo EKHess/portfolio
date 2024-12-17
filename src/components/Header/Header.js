@@ -7,6 +7,7 @@ function Header() {
             <div className="nav-container">
                 <NavLink to="/home" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
                 <NavLink to="/portfolio">Portfolio</NavLink>
+                <NavLink to="/publications">Publications</NavLink>
             </div>
         </>
     )
