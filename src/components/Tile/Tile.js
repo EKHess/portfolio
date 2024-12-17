@@ -1,11 +1,11 @@
 import React from "react";
 
-function Tile({project}) {
+function Tile({data}) {
     return (
         <div className="tile">
-            <h1>{project.title}</h1>
-            <p>{project.description}</p>
-            <a href={project.url} target="_blank" rel="noreferrer">View on GitHub</a>
+            <h1>{data.title}</h1>
+            <p>{data.description}</p>
+            <a href={data.url} target="_blank" rel="noreferrer">View on GitHub</a>
         </div>
     )
 }
