@@ -5,7 +5,7 @@ function Tile({data}) {
         <div className="tile">
             <h1>{data.title}</h1>
             <p>{data.description}</p>
-            <a href={data.url} target="_blank" rel="noreferrer">View on GitHub</a>
+            <a href={data.url} target="_blank" rel="noreferrer">View on {data.hostedBy}</a>
         </div>
     )
 }
