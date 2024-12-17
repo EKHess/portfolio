@@ -1,13 +1,13 @@
 import React from "react";
 import image from "../../images/branding/Eric_BN_selfie.jpg";
-import './home.module.css';
+import styles from './Home.module.css';
 
 function Home() {
     return (
         <>
             <section className="banner-section">
                 <div className="image-container">
-                    <img src={image} alt="Selfie of Eric with the Baker-Nunn Telescope"/>
+                    <img className={styles.img} src={image} alt="Selfie of Eric with the Baker-Nunn Telescope"/>
                 </div>
                 <div id="portfolio-pitch">
                     <h1>Eric Hess</h1>
