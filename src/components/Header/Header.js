@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
+import Back from "../Back/Back";
 
 function Header() {
     return (
@@ -11,7 +12,7 @@ function Header() {
                 <NavLink to="/publications">Publications</NavLink>
             </div>
             <div className={styles.navContainerMobile}>
-                <NavLink><ion-icon name="chevron-back-outline"></ion-icon></NavLink>
+                <Back/>
                 <NavLink to="/mobileNav"><ion-icon name="menu-outline"></ion-icon></NavLink>
             </div>
         </>
