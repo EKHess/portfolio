@@ -3,6 +3,7 @@ import Root from "./components/Root/Root";
 import Home from "./components/Home/Home";
 import Portfolio from './components/Portfolio/Portfolio';
 import Publications from '../src/components/Publications/Publications';
+import MobileNav from './components/MobileNav/MobileNav';
 import { projects } from './data/portfolio/portfolio';
 import { publications } from './data/publications/publications';
 
@@ -14,6 +15,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='home' element={<Home/>}/>
     <Route path='portfolio' element={<Portfolio content={projects}/>}/>
     <Route path='publications' element={<Publications content={publications}/>}/>
+    <Route path='mobileNav' element={<MobileNav/>}/>
   </Route>
 ))
 

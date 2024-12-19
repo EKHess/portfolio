@@ -12,7 +12,7 @@ function Header() {
             </div>
             <div className={styles.navContainerMobile}>
                 <NavLink><ion-icon name="chevron-back-outline"></ion-icon></NavLink>
-                <NavLink><ion-icon name="menu-outline"></ion-icon></NavLink>
+                <NavLink to="/mobileNav"><ion-icon name="menu-outline"></ion-icon></NavLink>
             </div>
         </>
     )
