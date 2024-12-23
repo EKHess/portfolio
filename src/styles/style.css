@@ -1,0 +1,13 @@
+:root {
+    --bg1: #0B0610;
+    --bg2: #1F2833;
+    --neutral: #C5C6C7;
+    --action: #66FCF1;
+    --secondary-action: #45A29E;
+}
+
+.app-container {
+    background-color: var(--bg1);
+    height: 100vh;
+    color: var(--neutral);
+}
