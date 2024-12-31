@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <section className={styles.bannerSection}>
-                <div className="image-container">
+                <div className={styles.bannerImageContainer}>
                     <img className={styles.img} src={image} alt="Selfie of Eric with the Baker-Nunn Telescope"/>
                 </div>
                 <div id="portfolio-pitch">
