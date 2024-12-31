@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from 'react-router-dom';
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import '../../styles/style.css';
 
 function Root() {
@@ -15,7 +16,7 @@ function Root() {
             </main>
 
             <footer>
-
+                <Footer/>
             </footer>
         </div>
     )
