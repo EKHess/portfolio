@@ -1,11 +1,12 @@
 import React from "react";
 import image from "../../images/branding/Eric_BN_selfie.jpg";
+// import '../../styles/reset.css';
 import styles from './Home.module.css';
 
 function Home() {
     return (
         <>
-            <section className="banner-section">
+            <section className={styles.bannerSection}>
                 <div className="image-container">
                     <img className={styles.img} src={image} alt="Selfie of Eric with the Baker-Nunn Telescope"/>
                 </div>
