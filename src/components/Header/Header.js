@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import '../../styles/reset.css';
+import '../../styles/style.css';
 import styles from "./Header.module.css";
 import Back from "../Back/Back";
 

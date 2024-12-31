@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../../images/branding/Eric_BN_selfie.jpg";
-// import '../../styles/reset.css';
+import '../../styles/reset.css';
+import '../../styles/style.css';
 import styles from './Home.module.css';
 
 function Home() {
