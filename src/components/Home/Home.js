@@ -1,5 +1,8 @@
 import React from "react";
 import image from "../../images/branding/Eric_BN_selfie.jpg";
+import Portfolio from '../Portfolio/Portfolio';
+import {projects} from '../../data/displayShelf/displayShelf';
+import { NavLink } from "react-router-dom";
 import '../../styles/reset.css';
 import '../../styles/style.css';
 import styles from './Home.module.css';
@@ -18,7 +21,12 @@ function Home() {
                         <p>I'm passionate about building robust projects like a full-stack developer, motivated by research goals in physics and astrophysics. My work has enabled telescope operators and researchers (like me!) to handle large datasets, write efficient algorithms, and uncover insights in dynamic, data-rich environments.</p>
                         <p>Check out some of my most recent projects below!</p>
                     </div>
-
+                    <div className={styles.displayShelf}>
+                        <Portfolio content={projects}/>
+                        <div className={styles.viewPortfolio}>
+                            <NavLink  to="/portfolio">View Entire Portfolio</NavLink>
+                        </div>
+                    </div>
                 </div>
             </section>
 

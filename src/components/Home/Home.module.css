@@ -1,3 +1,11 @@
+:root {
+    --bg1: #0B0610;
+    --bg2: #1F2833;
+    --neutral: #C5C6C7;
+    --action: #66FCF1;
+    --secondary-action: #45A29E;
+}
+
 img {
     height: 600px;
 }
@@ -44,5 +52,27 @@ img {
 }
 
 .bioText p {
-    margin-top: 10px;
+    margin-top: 0.75rem;
+}
+
+.displayShelf {
+    margin-top: 1.5rem;
+}
+
+.viewPortfolio {
+    display: flex;
+    justify-content: center;
+}
+
+.viewPortfolio a {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: var(--action);
+    color: var(--bg2);
+    border-radius: 1rem;
+}
+
+.viewPortfolio a:hover {
+    background-color: var(--secondary-action);
+    /* color: var(--neutral); */
 }

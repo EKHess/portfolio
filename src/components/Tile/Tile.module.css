@@ -1,7 +1,31 @@
+:root {
+    --bg1: #0B0610;
+    --bg2: #1F2833;
+    --neutral: #C5C6C7;
+    --action: #66FCF1;
+    --secondary-action: #45A29E;
+}
+
 .tile {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: var(--bg2);
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .tileHeader {
-    color: red;
+    color: var(--neutral);
+    font-weight: 700;
+}
+
+.tileDate {
+
+}
+
+.tileDescription {
+
+}
+
+.tileLink {
+    color: var(--action);
 }
