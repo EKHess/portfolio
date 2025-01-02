@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
 :root {
     --bg1: #0B0610;
     --bg2: #1F2833;
     --neutral: #C5C6C7;
     --action: #66FCF1;
     --secondary-action: #45A29E;
+}
+
+*, h1, h2, h3, a {
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .app-container {
