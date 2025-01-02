@@ -11,21 +11,30 @@
     background-color: var(--bg2);
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: 10px 10px 0px -5px var(--secondary-action)
+}
+
+.tile:hover {
+    
 }
 
 .tileHeader {
     color: var(--neutral);
     font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .tileDate {
-
+    margin-bottom: 0.5rem;
 }
 
 .tileDescription {
-
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .tileLink {
+    
     color: var(--action);
 }

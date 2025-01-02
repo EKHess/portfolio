@@ -6,10 +6,6 @@
     --secondary-action: #45A29E;
 }
 
-img {
-    height: 600px;
-}
-
 .bannerSection {
     /* max-width: 1200px; */
     width: 100vw;
@@ -29,6 +25,7 @@ img {
 
 .bannerImageContainer img {
     border-radius: 1em;
+    height: 600px;
 }
 
 .name {
@@ -56,7 +53,7 @@ img {
 }
 
 .displayShelf {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .viewPortfolio {
@@ -65,7 +62,7 @@ img {
 }
 
 .viewPortfolio a {
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 1rem;
     background-color: var(--action);
     color: var(--bg2);
