@@ -9,7 +9,7 @@
 .bannerSection {
     /* max-width: 1200px; */
     width: 100vw;
-    margin: 20px auto;
+    margin: 2rem auto;
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -53,6 +53,8 @@
 }
 
 .displayShelf {
+    /* Comment out "display:none;" if you decide you'd like the display shelf again */
+    display: none;
     margin-top: 2rem;
 }
 
@@ -66,10 +68,21 @@
     padding: 1rem;
     background-color: var(--action);
     color: var(--bg2);
+    border: 1px solid var(--action);
     border-radius: 1rem;
+
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 .viewPortfolio a:hover {
-    background-color: var(--secondary-action);
-    /* color: var(--neutral); */
+    color: var(--action);
+    background-color: var(--bg1);
+    border: 1px solid var(--action);
+}
+
+.subheader {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
 }

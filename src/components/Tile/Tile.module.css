@@ -9,8 +9,8 @@
 .tile {
     /* border: 1px solid red; */
     background-color: var(--bg2);
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 1.5rem;
+    /* border-radius: 1rem; */
     box-shadow: 10px 10px 0px -5px var(--secondary-action)
 }
 
@@ -22,19 +22,43 @@
     color: var(--neutral);
     font-weight: 700;
     font-size: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .tileDate {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 1.25rem;
 }
 
 .tileDescription {
     font-size: 1.25rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* .tileLink {
+    color: var(--action);
+} */
+
+.tileLinkContainer {
+    margin-bottom: 1rem;
+    /* text-align: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tileLink {
-    
+    padding: 0.75rem;
+    border-radius: 1rem;
+
     color: var(--action);
+    background-color: var(--bg2);
+    border: 1px solid var(--action);
+}
+
+.tileLink:hover {
+    background-color: var(--action);
+    color: var(--bg2);
 }

@@ -15,9 +15,9 @@
     font-style: normal;
 }
 
-.app-container {
+html {
     background-color: var(--bg1);
-    height: 100vh;
+    /* height: 100vh; */
     color: var(--neutral);
 }
 

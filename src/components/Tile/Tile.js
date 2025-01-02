@@ -7,7 +7,9 @@ function Tile({data}) {
             <h1 className={styles.tileHeader}>{data.title}</h1>
             <p className={styles.tileDate}>Date: {data.year}-{data.month}</p>
             <p className={styles.tileDescription}>{data.description}</p>
-            <a className={styles.tileLink} href={data.url} target="_blank" rel="noreferrer">View on {data.hostedBy}</a>
+            <div className={styles.tileLinkContainer}>
+                <a className={styles.tileLink} href={data.url} target="_blank" rel="noreferrer">View on {data.hostedBy} <ion-icon name="open-outline"></ion-icon></a>
+            </div>
         </div>
     )
 }

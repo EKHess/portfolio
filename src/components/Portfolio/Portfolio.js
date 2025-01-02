@@ -4,13 +4,16 @@ import '../../styles/reset.css';
 import '../../styles/style.css';
 import styles from './Portfolio.module.css';
 
-function Portfolio({content}) {
+function Portfolio({label, content}) {
     return (
-        <div className={styles.portfolioGridContainer}>
-            {content.map((project) => (
-                <Tile data={project}/>
-            ))}
-        </div>
+        <>
+            <h1 className={styles.portfolioHeader}>{label}</h1>
+            <div className={styles.portfolioGridContainer}>
+                {content.map((project) => (
+                    <Tile data={project}/>
+                ))}
+            </div>
+        </>
     )
 }
 

@@ -1,3 +1,5 @@
+export const portfolioLabel = "Eric's Portfolio";
+
 export const projects = [
     {
         id: 0,

@@ -1,3 +1,5 @@
+export const publicationsLabel = "Eric's Publications";
+
 export const publications = [
     {
         id: 0,
