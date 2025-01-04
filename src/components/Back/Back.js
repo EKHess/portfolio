@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import styles from './Back.module.css';
 
 function Back() {
 
@@ -11,7 +12,7 @@ function Back() {
     }
 
     return (
-        <span onClick={goBack}>
+        <span onClick={goBack} className={styles.backBtn}>
             <ion-icon name="chevron-back-outline"></ion-icon>
         </span>
     )

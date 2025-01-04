@@ -9,9 +9,9 @@ function Header() {
     return (
         <>
             <div className={styles.navContainerDesktop}>
-                <NavLink to="/home" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
-                <NavLink to="/portfolio">Portfolio</NavLink>
-                <NavLink to="/publications">Publications</NavLink>
+                <NavLink to="/home" className={({ isActive }) => (isActive ? styles.active : '')}>Home</NavLink>
+                <NavLink to="/portfolio" className={({ isActive }) => (isActive ? styles.active : '')}>Portfolio</NavLink>
+                <NavLink to="/publications" className={({ isActive }) => (isActive ? styles.active : '')}>Publications</NavLink>
             </div>
             <div className={styles.navContainerMobile}>
                 <Back/>

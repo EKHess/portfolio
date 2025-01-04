@@ -12,6 +12,7 @@
 
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 
     padding: 20px 0;
@@ -19,6 +20,16 @@
     border-bottom: 1px solid var(--bg2);
 
     /* border: 1px solid red; */
+}
+
+.navContainerDesktop a {
+    padding: 0.5rem;
+}
+
+.active {
+    border: 1px solid var(--neutral);
+    border-radius: 0.5rem;
+
 }
 
 /* a {
@@ -34,6 +45,10 @@
         display: none;
     }
     .navContainerMobile {
-        display: block;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+
+        display: flex;
+        justify-content: space-between;
     }
 }

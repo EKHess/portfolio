@@ -20,6 +20,10 @@ function Home() {
                     <div className={styles.bioText}>
                         <p>I'm passionate about building robust projects like a full-stack developer, motivated by research goals in physics and astrophysics. My work has enabled telescope operators and researchers (like me!) to handle large datasets, write efficient algorithms, and uncover insights in dynamic, data-rich environments.</p>
                     </div>
+                    <div className={styles.bioTextMobile}>
+                        <p>I'm passionate about building robust projects like a full-stack developer, motivated by research goals in physics and astrophysics.</p> 
+                        <p>My work has enabled telescope operators and researchers (like me!) to handle large datasets, write efficient algorithms, and uncover insights in dynamic, data-rich environments.</p>
+                    </div>
                     <div className={styles.viewPortfolio}>
                             <NavLink  to="/portfolio">View Portfolio</NavLink>
                     </div>
