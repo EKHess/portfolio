@@ -16,13 +16,12 @@ function Home() {
                 </div>
                 <div className={styles.bioSection}>
                     <h1 className={styles.name}>Eric Hess</h1>
-                    <h2 className={styles.skills}>Astrophysicist & Full-Stack Engineer</h2>
+                    <h2 className={styles.skills}>Machine Learning + Scientific Computing</h2>
                     <div className={styles.bioText}>
-                        <p>I'm passionate about building robust projects like a full-stack developer, motivated by research goals in physics and astrophysics. My work has enabled telescope operators and researchers (like me!) to handle large datasets, write efficient algorithms, and uncover insights in dynamic, data-rich environments.</p>
+                        <p>I'm an aspring data scientist with a background in astrophysics, and hands-on experience analyzing complex datasets using Python, machine learning, and developer tools.</p>
                     </div>
                     <div className={styles.bioTextMobile}>
-                        <p>I'm passionate about building robust projects like a full-stack developer, motivated by research goals in physics and astrophysics.</p> 
-                        <p>My work has enabled telescope operators and researchers (like me!) to handle large datasets, write efficient algorithms, and uncover insights in dynamic, data-rich environments.</p>
+                        <p>I'm an aspring data scientist with a background in astrophysics, and hands-on experience analyzing complex datasets using Python, machine learning, and developer tools.</p>
                     </div>
                     <div className={styles.viewPortfolio}>
                             <NavLink  to="/portfolio">View Portfolio</NavLink>
