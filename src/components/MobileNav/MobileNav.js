@@ -7,9 +7,9 @@ import styles from './MobilNav.module.css';
 function MobileNav() {
     return (
         <nav className={styles.mobileNavContainer}>
-            <NavLink to="/home">Home</NavLink>
-            <NavLink to="/portfolio">Portfolio</NavLink>
-            <NavLink to="/publications">Publications</NavLink>
+            <NavLink className={styles.mobileNavLink} to="/home">Home</NavLink>
+            <NavLink className={styles.mobileNavLink} to="/portfolio">Portfolio</NavLink>
+            <NavLink className={styles.mobileNavLink} to="/publications">Publications</NavLink>
         </nav>
     )
 }
