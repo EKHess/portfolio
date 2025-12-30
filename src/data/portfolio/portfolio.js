@@ -19,4 +19,13 @@ export const projects = [
         url: "https://github.com/EKHess/Gaia-DR3-Cone-Search",
         hostedBy: "GitHub",
     },
+    {
+        id: 2,
+        title: "Titanic Survival Prediction with PyTorch",
+        description: "A binary classification approach using PyTorch, featuring a complete machine learning workflow: data preprocessing, model construction, training, evaluation, and visualization.",
+        year: "2025",
+        month: "11",
+        url: "https://github.com/EKHess/Titanic-Survivors",
+        hostedBy: "GitHub",
+    },
 ]
