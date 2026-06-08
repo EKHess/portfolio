@@ -12,6 +12,7 @@ function Header() {
                 <NavLink to="/home" className={({ isActive }) => (isActive ? styles.active : '')}>Home</NavLink>
                 <NavLink to="/portfolio" className={({ isActive }) => (isActive ? styles.active : '')}>Portfolio</NavLink>
                 <NavLink to="/publications" className={({ isActive }) => (isActive ? styles.active : '')}>Publications</NavLink>
+                <NavLink to="/media" className={({ isActive }) => (isActive ? styles.active : '')}>Media</NavLink>
             </div>
             <div className={styles.navContainerMobile}>
                 <Back/>

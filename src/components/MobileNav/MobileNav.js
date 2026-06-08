@@ -10,6 +10,7 @@ function MobileNav() {
             <NavLink className={styles.mobileNavLink} to="/home">Home</NavLink>
             <NavLink className={styles.mobileNavLink} to="/portfolio">Portfolio</NavLink>
             <NavLink className={styles.mobileNavLink} to="/publications">Publications</NavLink>
+            <NavLink className={styles.mobileNavLink} to="/media">Media</NavLink>
         </nav>
     )
 }
