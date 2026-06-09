@@ -26,6 +26,6 @@ export const media = [
         year: "2024",
         month: "04",
         url: "https://www.ctvnews.ca/calgary/article/it-does-kind-of-put-you-in-your-place-calgary-comes-out-to-catch-glimpse-of-solar-eclipse/",
-        hostedBy: "Global News",
+        hostedBy: "CTV News",
     },
 ]

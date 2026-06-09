@@ -6,7 +6,7 @@ export const publications = [
         title: "2025 HA",
         description: "Follow up observations from the Dominion Astrophysical Observatory of 2025 HA, a recently discovered NEO (first recorded observation by Pan-STARRS 1, Haleakala on 2025-04-16) and Apollo class object.",
         year: "2025",
-        month: "5",
+        month: "05",
         url: "https://ui.adsabs.harvard.edu/abs/2025MPEC....H....9D/abstract",
         hostedBy: "NASA ADS",
     },
