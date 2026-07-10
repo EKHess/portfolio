@@ -18,10 +18,10 @@ function Home() {
                     <h1 className={styles.name}>Eric Hess</h1>
                     <h2 className={styles.skills}>Machine Learning + Scientific Computing</h2>
                     <div className={styles.bioText}>
-                        <p>I'm an aspring data scientist with a background in astrophysics, and hands-on experience analyzing complex datasets using Python, machine learning, and developer tools.</p>
+                        <p>I build computational models and automated data pipelines that power simulations and scientific analysis across multidisciplinary research. From astrophysics and near-Earth object tracking to molecular dynamics simulations of cells and DNA in biophysics, I help research teams accelerate discovery using Python, machine learning, and modern scientific computing tools.</p>
                     </div>
                     <div className={styles.bioTextMobile}>
-                        <p>I'm an aspring data scientist with a background in astrophysics, and hands-on experience analyzing complex datasets using Python, machine learning, and developer tools.</p>
+                        <p>I build computational models and automated data pipelines that power simulations and scientific analysis across multidisciplinary research. From astrophysics and near-Earth object tracking to molecular dynamics simulations of cells and DNA in biophysics, I help research teams accelerate discovery using Python, machine learning, and modern scientific computing tools.</p>
                     </div>
                     <div className={styles.viewPortfolio}>
                             <NavLink  to="/portfolio">View Portfolio</NavLink>
